@@ -1,4 +1,6 @@
-import math
-V = float(input('Дан объем шара (куб. ед):' ))
-r = (3 * V / (4 * math.pi)) ** (1 / 3)
-print (f'Радиус шара: {r} ед.')
+n = int(input("Введите количество школьников: "))
+k = int(input("Введите количество яблок: "))
+apples_students = k // n
+results = k % n
+print("Каждму школьнику достанется: ", apples_students, "яблок")
+print("В корзинке останется: ", results, "яблок")
